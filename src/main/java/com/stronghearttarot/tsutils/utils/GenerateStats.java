@@ -7,14 +7,12 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockBreakEvent;
 
-public class GenerateStats implements Listener
-{
+public class GenerateStats implements Listener {
 
-	@EventHandler (priority = EventPriority.MONITOR)
-	public void onBlockBreak(BlockBreakEvent event)
-	{
-		Player player = event.getPlayer();
-		Block block = event.getBlock();
-	}
-	
+    @EventHandler(priority = EventPriority.MONITOR)
+    public void onBlockBreak(BlockBreakEvent event) {
+        Player player = event.getPlayer();
+        Block block = event.getBlock();
+    }
+
 }

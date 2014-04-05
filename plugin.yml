@@ -1,0 +1,11 @@
+name: TSUtils
+main: com.stronghearttarot.tsutils.TSUtils
+version: 0.1A
+description: Nunyer fukin business :D
+commands:
+    tsswitch:
+        usage: /<command>
+        description: Enabled other plugin commands
+    inv:
+        usage: /<command> [target player]
+        description: View target players inventory

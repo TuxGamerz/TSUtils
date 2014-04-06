@@ -27,6 +27,7 @@ public class MongoConnector {
     }
 
     public String madMethod(String joke) {
+        String question = "Why did the chicken cross the road?";
         return joke;
     }
 

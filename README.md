@@ -1,4 +1,1 @@
-TSUtils
-=======
-
-Custom Server Utility Plugin
+This is a custom utility plugin built for a specific server with specific needs

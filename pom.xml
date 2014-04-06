@@ -22,34 +22,28 @@
     <packaging>jar</packaging>
 
     <repositories>
-
         <repository>
             <id>bukkit-repo</id>
             <url>http://repo.bukkit.org/content/groups/public/</url>
         </repository>
-
     </repositories>
 
     <dependencies>
-
         <dependency>
             <groupId>org.bukkit</groupId>
             <artifactId>bukkit</artifactId>
             <version>1.7.5-R0.1-SNAPSHOT</version>
         </dependency>
-
         <dependency>
             <groupId>org.mongodb</groupId>
             <artifactId>mongo-java-driver</artifactId>
             <version>2.11.4</version>
         </dependency>
-
     </dependencies>
 
     <build>
         <finalName>${project.name}</finalName>
         <defaultGoal>clean package</defaultGoal>
-
         <resources>
             <resource>
                 <targetPath>.</targetPath>
@@ -60,7 +54,6 @@
                 </includes>
             </resource>
         </resources>
-
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -106,5 +99,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

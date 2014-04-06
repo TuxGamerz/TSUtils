@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="TuxServer" />
+  <component name="PublishConfigData" serverName="TuxServer" uploadOnCheckin="c445e604-9eb2-4653-987c-aa1e545fe0ea">
+    <option name="myUploadOnCheckinName" value="TuxServer" />
+  </component>
 </project>
 

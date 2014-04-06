@@ -4,6 +4,7 @@ import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
 import com.mongodb.MongoClient;
+import com.stronghearttarot.tsutils.TSUtils;
 import org.bukkit.Bukkit;
 
 import java.net.UnknownHostException;
@@ -16,6 +17,7 @@ public class MongoConnector {
     private MongoClient mongoClient;
     private DB serverDatabase;
     private Logger log = Bukkit.getLogger();
+    private TSUtils plugin;
 
     public MongoConnector() {
         try {

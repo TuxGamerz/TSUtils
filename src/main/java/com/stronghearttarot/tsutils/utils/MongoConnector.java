@@ -26,6 +26,10 @@ public class MongoConnector {
         }
     }
 
+    public String madMethod(String joke) {
+        return joke;
+    }
+
     public void setPlayerHomes(String playerName, double loc_x, double loc_y, double loc_z) {
         DBCollection playerHomes = serverDatabase.getCollection("player_homes");
         BasicDBObject playerHomeInfo = new BasicDBObject("player_name", playerName).append("location", new BasicDBObject("x", loc_x).append("y", loc_y).append("z", loc_z));
